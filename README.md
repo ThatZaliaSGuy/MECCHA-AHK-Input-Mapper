@@ -4,6 +4,8 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
 
 > **Note**: This is a community tool. It is not affiliated with or endorsed by the MECCHA CHAMELEON developers. Use at your own risk.
 
+![Demo](assets/MUI.gif)
+
 ## Contents
 
 - [Features](#features)
