@@ -79,6 +79,10 @@ The setting uses `InputPitchScale=-2.5` (inverted) or `InputPitchScale=2.5` (nor
 
 ### Ultrawide Aspect Ratio Fix
 
+<p align="center">
+  <img src="https://github.com/ThatZaliaSGuy/MECCHA-AHK-Input-Mapper/blob/aba8ce1dbc983a1b2dc99663a6e1fb45140f713e/assets/Ultrawide_fix.gif" alt="MECCHA CHAMELEON UW" width="400">
+</p>
+
 The app can create/modify `Engine.ini` to fix FOV and stretching issues on ultrawide monitors:
 
 1. Find the **Game Settings** panel at the bottom
