@@ -14,9 +14,6 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
   - [Mouse Y-Inversion](#mouse-y-inversion)
   - [Ultrawide Aspect Ratio Fix](#ultrawide-aspect-ratio-fix)
 - [Quick Reference](#quick-reference)
-- [Troubleshooting](#troubleshooting)
-- [Building an Executable](#building-an-executable)
-- [Architecture](#architecture)
 - [File Locations](#file-locations)
 - [Known Limitations](#known-limitations)
 - [License](#license)
@@ -102,3 +99,25 @@ The setting uses `AspectRatioAxisConstraint=AspectRatio_MaintainYFOV`.
 - **Reset**: Revert all changes to the original defaults
 - **Load…**: Open a previously created script for editing
 - **Create / Save**: Save a new script, or overwrite the loaded one
+
+- ## File Locations
+
+- **AHK Scripts**: Saved to your chosen location via file dialog
+- **Game.ini**: `%LOCALAPPDATA%\Chameleon\Saved\Config\Windows\Game.ini`
+- **Engine.ini**: `%LOCALAPPDATA%\Chameleon\Saved\Config\Windows\Engine.ini`
+- **App Config**: Standard Electron app data locations (OS-specific)
+
+## Known Limitations
+
+- Mouse-axis bindings (wheel, look) can't be remapped via AutoHotkey (no keyboard equivalent)
+- Controller/gamepad remapping is not covered — use Steam Input for that
+- Game.ini and Engine.ini settings apply on next game launch, not immediately
+- Read-only protection may not work if Windows permissions prevent it
+
+## License
+
+MIT
+
+## Contributing
+
+Found a bug? Want to request a feature? Open an issue or a pull request — contributions are welcome.
