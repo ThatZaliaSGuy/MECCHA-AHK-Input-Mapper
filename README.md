@@ -65,7 +65,7 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
 
 ### Mouse Y-Inversion
 
-[Demo](/assets/MouseToggle.gif)
+![Demo](/assets/MouseToggle.gif)
 
 The app can create/modify `Game.ini` to invert mouse look:
 
@@ -81,9 +81,9 @@ The setting uses `InputPitchScale=-2.5` (inverted) or `InputPitchScale=2.5` (nor
 
 ### Ultrawide Aspect Ratio Fix
 
-[Demo](/assets/UWToggle.gif)
+![Demo](/assets/UWToggle.gif)
 
-[Demo](assets/Ultrawide_fix.gif)
+![Demo](assets/Ultrawide_fix.gif)
 
 The app can create/modify `Engine.ini` to fix FOV and stretching issues on ultrawide monitors:
 
