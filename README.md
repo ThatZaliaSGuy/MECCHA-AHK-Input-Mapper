@@ -35,9 +35,9 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
 - Windows 10 or later
 - [AutoHotkey](https://www.autohotkey.com)
 
- ## Usage
+## Usage
 
-- ### Remapping Keybinds
+### Remapping Keybinds
 
 1. Click any key chip to rebind it by pressing a new key, clicking a mouse button, or using the mouse wheel
 2. The tool focuses on the controls players actually remap: **Movement (WASD)**, **Interact**, **Jump**, **Crouch**, **Dash**, **Shoot**, **Aim**, **Paint / Mode Change**, **Body Pose**, **Whistle / Taunt**, **Voice Chat (Talk/Hear)**, **Text Chat**, and **Toggle Player Names**. Each control has one default key; a small amber dot marks any you've changed.
@@ -49,7 +49,7 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
 
 > **Controller users:** This tool covers keyboard and mouse only. Since MECCHA CHAMELEON is on Steam, controller remapping is best handled through Steam Input (right-click the game → Manage → Controller layout), which is purpose-built for it.
 
-- ### Using AutoHotkey Scripts
+### Using AutoHotkey Scripts
 
 **Important**: MECCHA CHAMELEON does not currently read keybind configs at runtime, so AutoHotkey is the workaround.
 
@@ -63,7 +63,7 @@ A local desktop application for remapping keybinds in MECCHA CHAMELEON and manag
 4. **Run the script**: Double-click it while the game is running
 5. **Stop it**: Right-click the AHK tray icon → Exit
 
-- ### Mouse Y-Inversion
+### Mouse Y-Inversion
 
 The app can create/modify `Game.ini` to invert mouse look:
 
@@ -77,7 +77,7 @@ The app can create/modify `Game.ini` to invert mouse look:
 
 The setting uses `InputPitchScale=-2.5` (inverted) or `InputPitchScale=2.5` (normal).
 
-- ### Ultrawide Aspect Ratio Fix
+### Ultrawide Aspect Ratio Fix
 
 The app can create/modify `Engine.ini` to fix FOV and stretching issues on ultrawide monitors:
 
