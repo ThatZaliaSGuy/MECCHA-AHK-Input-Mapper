@@ -2,7 +2,7 @@
 
 A local desktop application for remapping keybinds in MECCHA CHAMELEON and managing game settings, including mouse Y-axis inversion and an ultrawide aspect ratio fix.
 
-> **Note**: This is a community tool. It is not affiliated with or endorsed by the MECCHA CHAMELEON developers. Use at your own risk.
+> **Note**: This is a community tool. It is not affiliated with or endorsed by the MECCHA CHAMELEON developers.
 
 ![Demo](assets/MUI.gif)
 
